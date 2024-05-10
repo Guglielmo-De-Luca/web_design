@@ -1,0 +1,28 @@
+body{font-family: "Nunito Sans", sans-serif;
+    text-align: center;
+    background-color: rgb(237, 232, 209);
+    }
+
+h1{font-size: 100px; margin: 0 20px 3px 20px; color: rgb(43, 42, 35);}
+h3{text-align: left; margin: 0 20px 3px 20px; font-size: 30px; color: rgb(43, 42, 35);}
+h2{color: white;}  
+h5{color: rgb(43, 42, 35);} 
+p{text-align: justify;
+    margin: 0 20px 0 20px;
+    color: rgb(43, 42, 35);}
+figcaption{color: white;}
+a{color: rgb(74, 71, 59);}
+
+img{max-width: 35%;
+    height: auto;
+    @media screen and (max-width: 480px) {
+        img {
+          width: 100%;
+        }
+      }
+
+}
+
+#title{text-align: center; color: rgb(74, 71, 59);}
+#gallery{background-color: rgb(109, 105, 87); margin: 0 0 0 0;;}
+#members{border: solid rgb(109, 105, 87) 5px; margin: 10px 0 40px 0; }
