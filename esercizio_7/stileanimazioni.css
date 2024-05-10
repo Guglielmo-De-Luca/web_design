@@ -1,0 +1,26 @@
+.one {
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+}
+
+.one:hover {
+    translate: 50px;
+}
+
+.two {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation-name: animazione;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+
+@keyframes animazione {
+    0% {background-color: blue;}
+    50% {background-color: red;}
+    100% {background-color: blue;}
+}
